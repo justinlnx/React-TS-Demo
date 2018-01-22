@@ -19,7 +19,7 @@ class App extends React.Component {
     };
 
     let device: IDevice = {
-      server_id: '',
+      device_id: 'd123',
       alarms_count: 0,
       warnings_count: 0,
       name: 'device-name',

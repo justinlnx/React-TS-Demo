@@ -23,3 +23,15 @@ export class Site extends Product {
     return siteObject;
   }
 }
+
+export enum AlertTypes {
+  Warning,
+  Error,
+  Healthy
+}
+
+/* if DatabaseSchema has a property called status with type AlertTypes, 
+    and then we could do the following to assign the AlertTypes */
+// let siteObj = new Site('parentId', 1);
+// let siteSchema = siteObj.schema();
+// server.status = AlertTypes.Error;

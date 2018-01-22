@@ -22,7 +22,7 @@ function intersection<T>(array1: T[], array2: T[]): T[] {
 */
 var a = [tags.Red, tags.Green, tags.Blue];
 var b = [tags.Red, tags.Yellow, tags.Blue];
-var c = intersection<tags>(a, b);
+var c = intersection<string>(a, b);
 console.log(c); // expected to be ['RED', 'BLUE']
 
 /* use case: looking for the common servers between multiple sites
